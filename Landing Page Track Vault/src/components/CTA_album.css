@@ -16,7 +16,7 @@
     height: 20%;
 
     margin-top: -19vw;
-    background-color: var(--cor_tres);
+    background-color: var(--um);
 }
 
 .container_texto_album{
@@ -27,22 +27,74 @@
     align-items: center;
 
     width: 50vw;
-    height: 50vh;
+    height: 80vh;
 
-    background-color: red;
 }
 
 .container_texto_album h1{
 
+    width: 37vw;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 3.2vw;
+
+    color: var(--cor_tres);
+}
+
+.container_texto_album p{
+
+    margin-right: 1.8vw;
+
     width: 35vw;
 
     font-family: var(--tipografia_primaria);
-    font-size: 3rem;
+    font-size: 1.3vw;
+}
+
+.container_texto_album button{
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    width: 14vw;
+    height: 7vh;
+
+    margin-top: 2vh;
+    margin-right: 23vw;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 1.2vw;
+
+    border-radius: 1vw;
+    border: 0.1vw solid var(--cor_tres);
+
+    color: var(--cor_dois);
+    background-color: var(--cor_tres);
+}
+
+.container_texto_album button:hover{
+
+    border: 0.1vw solid var(--cor_tres);
+
+    font-weight: bold;
+
+    color: var(--cor_tres);
+    background-color: var(--cor_dois);
+}
+
+.container_texto_album button:not(:hover){
+
+    border: 0.1vw solid var(--cor_tres);
+
+    color: var(--cor_dois);
+    background-color: var(--cor_tres);
 }
 
 .container_imagem_algum{
 
     width: 50vw;
+    height: 90vh;
 
     display: flex;
     justify-content: center;

@@ -9,8 +9,11 @@ function CTA_album() {
             <h1>Novo álbum disponível em vinil a partir de 15 de junho.</h1>
             <p>Inclui “Dummy,” e as faixas “Jail Time” e “Mexican Vacation”, que não estavam no álbum. Tiragem limitada de 500 exemplares em vinil de 180 gramas. Compre o seu antes que acabe!</p>
 
+            <div className='container_botao_cta_album'>
+
             <button>Ouça Agora</button>
 
+            </div>
         </div>
 
         <div className="container_imagem_algum">

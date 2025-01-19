@@ -26,10 +26,10 @@
     align-items: center;
     justify-content: space-around;
 
-    width: 30%;
-    height: 15%;
+    width: 30vw;
+    height: 15vh;
 
-    padding-left: 2%;
+    padding-left: 2vw;
 }
 
 .banner_hyperlinks_container a{
@@ -37,7 +37,7 @@
     transition: 0.3s;
 
     font-family: var(--tipografia_primaria);
-    font-size: clamp(0.5rem, 1rem, 1.25rem);
+    font-size: 1.2vw;
     font-weight: bold;
 
     text-decoration: none;
@@ -57,15 +57,15 @@
     align-items: center;
     justify-content: center;
 
-    width: 40%;
-    height: 15%;
+    width: 40vw;
+    height: 15vh;
 }
 
 .banner_logo_container img{
 
     transition: 0.3s;
 
-    width: 50%;
+    width: 25vw;
 }
 
 .banner_botao_container{
@@ -74,22 +74,22 @@
     justify-content: center;
     align-items: center;
 
-    width: 30%;
-    height: 15%;
+    width: 30vw;
+    height: 15vh;
 }
 
 .banner_botao_container button{
 
     transition: 0.3s;
 
-    width: 50%;
-    height: 45%;
+    width: 14vw;
+    height: 7vh;
 
     font-family: var(--tipografia_primaria);
-    font-size: clamp(0.75rem, 1rem, 1.25rem);
+    font-size: 1.2vw;
 
     border-radius: 1vw;
-    border: 0.1% solid var(--cor_tres);
+    border: 0.1vw solid var(--cor_tres);
 
     color: var(--cor_dois);
     background-color: var(--cor_tres);
@@ -97,7 +97,7 @@
 
 .banner_botao_container button:hover{
 
-    border: 1% solid var(--cor_dois);
+    border: 0.1vw solid var(--cor_dois);
 
     font-weight: bold;
 
@@ -107,58 +107,8 @@
 
 .banner_botao_container button:not(:hover){
 
-    border: 0.1% solid var(--cor_tres);
+    border: 0.1vw solid var(--cor_tres);
 
     color: var(--cor_dois);
     background-color: var(--cor_tres);
-}
-
-@media (max-width: 768px) {
-
-    .banner_hyperlinks_container a{
-
-        transition: 0.3s;
-    
-        font-family: var(--tipografia_primaria);
-        font-size: 0rem;
-        font-weight: bold;
-    
-        text-decoration: none;
-    
-        color: var(--cor_tres);
-    }
-
-    .banner_botao_container button{
-
-        transition: 0.3s;
-    
-        width: 0%;
-        height: 0%;
-    
-        font-family: var(--tipografia_primaria);
-        font-size: 0rem;
-    
-        border-radius: 0vw;
-        border: 0% solid var(--cor_tres);
-    
-        color: var(--cor_dois);
-        background-color: var(--cor_tres);
-    }
-
-    .banner_logo_container{
-
-        display: flex;
-    
-        align-items: center;
-        justify-content: center;
-    
-        width: 90%;
-        height: 15%;
-    }
-    
-    .banner_logo_container img{
-    
-        margin-top: 5%;
-        width: 60%;
-    }
 }
