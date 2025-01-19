@@ -4,6 +4,7 @@ import CTA_album from '../components/CTA_album';
 import './Pagina_inicial.css';
 import Eventos from '../components/Eventos';
 import Produtos from '../components/Produtos';
+import Imprensa from '../components/Imprensa';
 
 function Pagina_inicial() {
   return (
@@ -13,6 +14,7 @@ function Pagina_inicial() {
         <CTA_album/>
         <Eventos/>
         <Produtos/>
+        <Imprensa/>
 
     </div>
   )
