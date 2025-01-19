@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Imprensa.css';
 import { Link } from 'react-router-dom';
+import { GlobalContext } from '../context/GlobalContext';
 function Imprensa() {
-  return (
-    <div className='container_imprensa'>
+  
+  const {imprensa_ref} = useContext(GlobalContext);
+  
+    return (
+    <div className='container_imprensa' ref={imprensa_ref}>
 
         <h2>Imprensa</h2>
 
@@ -15,7 +19,7 @@ function Imprensa() {
                 <h3>Novas datas do turnê</h3>
                 <p>O verão está apenas começando, mas o Vandam, essa lenda do rock, já está fazendo todo mundo esperar o outono.</p>
 
-                <Link>Saiba mais →</Link>
+                <Link target='_blank' to={`https://www.whatsapp.com/`}>Saiba mais →</Link>
             </div>
 
             <div className="container_noticia_b_row_a">
@@ -24,7 +28,7 @@ function Imprensa() {
                 <h3>A banda que foi dos bares aos estádios</h3>
                 <p>O Vandam começou como uma piada, mas, com o lançamento do último single, as coisas ficaram sérias.</p>
 
-                <Link>Saiba mais →</Link>
+                <Link target='_blank' to={`https://www.whatsapp.com/`}>Saiba mais →</Link>
             </div>
 
             <div className="container_noticia_c_row_a">
@@ -33,7 +37,7 @@ function Imprensa() {
                 <h3>Vandam fará show beneficente</h3>
                 <p>“Temos a responsabilidade de sair da marginalidade e fazer alguma coisa”, conta Viv.</p>
 
-                <Link>Saiba mais →</Link>
+                <Link target='_blank' to={`https://www.whatsapp.com/`}>Saiba mais →</Link>
             </div>
 
         </div>
@@ -46,7 +50,7 @@ function Imprensa() {
                 <h3>Vencendo na vida e na música</h3>
                 <p>Vince e Viv, do Vandam, são mais que colegas de banda: são irmãos gêmeos. Conversamos com eles sobre como é trabalhar em família.</p>
 
-                <Link>Saiba mais →</Link>
+                <Link target='_blank' to={`https://www.whatsapp.com/`}>Saiba mais →</Link>
             </div>
 
             <div className="container_noticia_b_row_b">
@@ -55,7 +59,7 @@ function Imprensa() {
                 <h3>"Jail Time" foi usada em um filme indie</h3>
                 <p>Além dos interesses musicais, o Vandam não esconde a paixão pelo cinema. Então, não é surpresa que uma das músicas deles faça parte da trilha sonora de uma das estreias mais esperadas do ano.</p>
 
-                <Link>Saiba mais →</Link>
+                <Link target='_blank' to={`https://www.whatsapp.com/`}>Saiba mais →</Link>
             </div>
 
             <div className="container_noticia_c_row_b">
@@ -64,7 +68,7 @@ function Imprensa() {
                 <h3>Vandam pelo mundo</h3>
                 <p>Com uma nova gravadora e uma turnê internacional com 16 datas, a banda local preferida da região vai estourar no mundo todo.</p>
 
-                <Link>Saiba mais →</Link>
+                <Link target='_blank' to={`https://www.whatsapp.com/`}>Saiba mais →</Link>
             </div>
 
         </div>

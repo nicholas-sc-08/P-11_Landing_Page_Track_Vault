@@ -9,8 +9,8 @@ import Area_cadastro from '../components/Area_cadastro';
 import Footer from '../components/Footer';
 import { GlobalContext } from '../context/GlobalContext';
 
-
 function Pagina_inicial() {
+  
   return (
     <div>
         

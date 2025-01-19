@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Produtos.css';
+import { GlobalContext } from '../context/GlobalContext';
 
 function Produtos() {
-  return (
-    <div className='container_produtos'>
+ 
+    const {produtos_ref} = useContext(GlobalContext);
+ 
+    return (
+    <div className='container_produtos' ref={produtos_ref}>
         
         <div>
             <h2>Produtos</h2>

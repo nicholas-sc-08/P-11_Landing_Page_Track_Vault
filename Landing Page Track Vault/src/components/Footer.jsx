@@ -1,9 +1,35 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { GlobalContext } from '../context/GlobalContext';
+
 
 function Footer() {
-  
+
+    const {inicio_ref} = useContext(GlobalContext);
+    const {proximos_eventos_ref} = useContext(GlobalContext);
+    const {produtos_ref} = useContext(GlobalContext);
+    const {imprensa_ref} = useContext(GlobalContext);
+    const ir_ate_inicio = ()=> {
+
+     inicio_ref.current.scrollIntoView({ behavior: 'smooth'});
+    };
+
+    const ir_ate_eventos = ()=> {
+
+        proximos_eventos_ref.current.scrollIntoView({ behavior: 'smooth'});
+    };
+    
+    const ir_ate_produtos = ()=> {
+
+        produtos_ref.current.scrollIntoView({ behavior: 'smooth'});
+    };
+
+    const ir_ate_imprensa = ()=> {
+
+        imprensa_ref.current.scrollIntoView({ behavior: 'smooth'});
+    };
+
     return (
     <div className='container_footer'>
 
@@ -13,10 +39,10 @@ function Footer() {
 
         <h4>Links</h4>
 
-        <Link>Início</Link>
-        <Link>Produtos</Link>
-        <Link>Próximos Eventos</Link>
-        <Link>Imprensa</Link>
+        <Link to={`#`} onClick={ir_ate_inicio}>Início</Link>
+        <Link to={`#`} onClick={ir_ate_produtos}>Produtos</Link>
+        <Link to={`#`} onClick={ir_ate_eventos}>Próximos Eventos</Link>
+        <Link to={`#`} onClick={ir_ate_imprensa}>Imprensa</Link>
 
     </div>
 

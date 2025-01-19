@@ -92,3 +92,20 @@
 
     color: var(--cor_tres);
 }
+
+.container_cadadstro a{
+
+    transition: 0.3s;
+
+    font-size: 1.2vw;
+    font-family: var(--tipografia_primaria);
+
+    text-decoration: none;
+
+    color: var(--cor_tres);
+}
+
+.container_cadadstro a:hover{
+
+    color: var(--cor_quatro);
+}

@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Eventos.css';
+import { GlobalContext } from '../context/GlobalContext';
 function Eventos() {
-  return (
-    <div className='container_eventos'>
+  
+  const {proximos_eventos_ref} = useContext(GlobalContext);
+  
+    return (
+    <div className='container_eventos' ref={proximos_eventos_ref}>
 
         <h2>Próximos Eventos</h2>
 
