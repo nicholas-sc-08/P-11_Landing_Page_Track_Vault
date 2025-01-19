@@ -69,7 +69,7 @@
     border-radius: 1vw;
     border: 0.1vw solid var(--cor_tres);
 
-    color: var(--cor_dois);
+    color: var(--cor_um);
     background-color: var(--cor_tres);
 }
 
@@ -80,14 +80,14 @@
     font-weight: bold;
 
     color: var(--cor_tres);
-    background-color: var(--cor_dois);
+    background-color: var(--cor_um);
 }
 
 .container_texto_album button:not(:hover){
 
     border: 0.1vw solid var(--cor_tres);
 
-    color: var(--cor_dois);
+    color: var(--cor_um);
     background-color: var(--cor_tres);
 }
 

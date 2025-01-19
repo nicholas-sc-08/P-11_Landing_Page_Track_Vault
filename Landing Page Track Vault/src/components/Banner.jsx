@@ -10,7 +10,7 @@ function Banner() {
 
             <Link to=''>Turnê</Link>
             <Link to=''>Imprensa</Link>
-            <Link to=''>Novidades</Link>
+            <Link to=''>Data dos Eventos</Link>
             <Link to=''>Produtos</Link>
 
         </div>

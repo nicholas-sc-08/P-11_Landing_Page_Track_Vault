@@ -4,6 +4,7 @@
     --cor_um: #ffffff;
     --cor_dois: #f5f5f5;
     --cor_tres: #001919;
+    --cor_quatro: #38383b;
 
     --tipografia_primaria: "Poppins", sans-serif;
 }
@@ -97,7 +98,7 @@
 
 .banner_botao_container button:hover{
 
-    border: 0.1vw solid var(--cor_dois);
+    border: 0.1vw solid var(--cor_tres);
 
     font-weight: bold;
 
