@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { useContext, useRef } from 'react';
 import './Banner.css';
 import { Link } from 'react-router-dom';
+import { GlobalContext } from '../context/GlobalContext';
 
 function Banner() {
+  
+  const {inicio_ref} = useContext(GlobalContext);
+
   return (
-    <div className='banner_container'>
+    <div className='banner_container' ref={inicio_ref}>
         
         <div className="banner_hyperlinks_container">
 
-            <Link to=''>Turnê</Link>
-            <Link to=''>Imprensa</Link>
-            <Link to=''>Data dos Eventos</Link>
+            <Link to=''>Início</Link>
             <Link to=''>Produtos</Link>
+            <Link to=''>Próximos Eventos</Link>
+            <Link to=''>Imprensa</Link>
 
         </div>
 

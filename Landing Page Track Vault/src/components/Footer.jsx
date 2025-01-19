@@ -3,7 +3,8 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-  return (
+  
+    return (
     <div className='container_footer'>
 
     <img src="Track_vault (1).svg" alt="" className='logo_footer'/>

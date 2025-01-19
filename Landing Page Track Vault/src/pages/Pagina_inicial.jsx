@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback, useContext } from 'react';
 import Banner from '../components/Banner';
 import CTA_album from '../components/CTA_album';
 import './Pagina_inicial.css';
@@ -7,6 +7,8 @@ import Produtos from '../components/Produtos';
 import Imprensa from '../components/Imprensa';
 import Area_cadastro from '../components/Area_cadastro';
 import Footer from '../components/Footer';
+import { GlobalContext } from '../context/GlobalContext';
+
 
 function Pagina_inicial() {
   return (
