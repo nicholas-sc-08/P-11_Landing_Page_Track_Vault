@@ -5,6 +5,8 @@ import './Pagina_inicial.css';
 import Eventos from '../components/Eventos';
 import Produtos from '../components/Produtos';
 import Imprensa from '../components/Imprensa';
+import Area_cadastro from '../components/Area_cadastro';
+import Footer from '../components/Footer';
 
 function Pagina_inicial() {
   return (
@@ -15,6 +17,8 @@ function Pagina_inicial() {
         <Eventos/>
         <Produtos/>
         <Imprensa/>
+        <Area_cadastro/>
+        <Footer/>
 
     </div>
   )

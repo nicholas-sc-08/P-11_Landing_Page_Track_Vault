@@ -37,6 +37,36 @@
     justify-content: space-around;
 }
 
+.container_row_a_imprensa a:hover{
+
+    transition: 0.3s;
+
+    color: var(--cor_cinco);
+
+}
+
+.container_row_a_imprensa a:not(:hover){
+
+    transition: 0.3s;
+
+    color: var(--cor_um);
+}
+
+.container_row_b_imprensa a:hover{
+
+    transition: 0.3s;
+
+    color: var(--cor_cinco);
+
+}
+
+.container_row_b_imprensa a:not(:hover){
+
+    transition: 0.3s;
+
+    color: var(--cor_um);
+}
+
 .container_row_b_imprensa{
 
     display: flex;
