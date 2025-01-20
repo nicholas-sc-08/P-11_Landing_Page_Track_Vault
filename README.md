@@ -11,4 +11,4 @@ Este repositório contém uma Landing page desenvolvida em React, projetada para
 
 Caso queira visualizar o projeto em tempo real segue o link abaixo:
 
-<kdb><a href='https://p-11-landing-page-track-vault.vercel.app/'>Visualizar Em Tempo Real</a></kdb>
+<kdb><a href='https://p-11-landing-page-track-vault.vercel.app/' target='_blank'>Visualizar Em Tempo Real</a></kdb>
