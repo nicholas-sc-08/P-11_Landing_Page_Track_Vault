@@ -1,5 +1,5 @@
 
-# Landing Page Track Vault
+# <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/public/Track_vault%20(2).svg' width='50px' height='50px'> Landing Page Track Vault
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![NodeJS](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -24,4 +24,23 @@ Com o Git instalado em seu computador, abra o prompt de commando em seu computad
 Caso você não possui o Git instalado em seu computador, acesse o link abaixo:
 
 <a href='https://git-scm.com/downloads'>Acessar o Git</a>
+
+Dentro da pasta do projeto, copie o caminho do explorador de arquivos, agora vá no prompt de commando novamente e digite:
+
+```git
+  cd 'caminho copiado'
+```
+
+e então instale a dependência do NodeJS,
+
+```git
+  npm i 
+```
+
+E por fim, tenha certeza de instalar a biblioteca do React-router-dom;
+
+```git
+  npm i react-router-dom
+```
+
 
