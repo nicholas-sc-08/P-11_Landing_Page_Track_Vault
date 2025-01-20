@@ -1,5 +1,5 @@
 
-# <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/public/Track_vault%20(2).svg' width='50px' height='50px'> Landing Page Track Vault
+# Landing Page Track Vault
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![NodeJS](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -43,4 +43,12 @@ E por fim, tenha certeza de instalar a biblioteca do React-router-dom;
   npm i react-router-dom
 ```
 
+## <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/Imagens_Readme/Gif_Node.gif' width='25px' height='25px'> Inicialização do Projeto
 
+Esta etapa não obrigatória, mas se você deseja abrir o projeto localmente, com o caminho já selecionado no prompt de commando do projeto, execute o commando de inicializar localmente:
+
+```git
+  npm run dev
+```
+
+Pronto! Divirta-se, ou também você pode acessar o projeto com o link que disponibilizei logo no começo!
