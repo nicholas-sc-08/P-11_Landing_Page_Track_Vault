@@ -11,7 +11,17 @@ Este repositório contém uma Landing page desenvolvida em React, projetada para
 
 Caso queira visualizar o projeto em tempo real segue o link abaixo:
 
-<kdb><a href='https://p-11-landing-page-track-vault.vercel.app/' target='_blank'>Visualizar Em Tempo Real</a></kdb>
+<kdb><a href='https://p-11-landing-page-track-vault.vercel.app/'>Visualizar Em Tempo Real</a></kdb>
 
 ## <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Processo de instalação
+
+Com o Git instalado em seu computador, abra o prompt de commando em seu computador. Feito isso, com o caminho já escolhido aonde você deseja colocar seu projeto no explorador de arquivos, execute o seguinte commando:
+
+```git
+  git clone https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault.git
+```
+
+Caso você não possui o Git instalado em seu computador, acesse o link abaixo:
+
+<a href='https://git-scm.com/downloads'>Acessar o Git</a>
 
