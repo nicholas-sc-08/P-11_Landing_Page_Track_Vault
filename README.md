@@ -12,3 +12,6 @@ Este repositório contém uma Landing page desenvolvida em React, projetada para
 Caso queira visualizar o projeto em tempo real segue o link abaixo:
 
 <kdb><a href='https://p-11-landing-page-track-vault.vercel.app/' target='_blank'>Visualizar Em Tempo Real</a></kdb>
+
+## <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Processo de instalação
+
