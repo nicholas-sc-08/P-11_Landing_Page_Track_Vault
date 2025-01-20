@@ -6,3 +6,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+Este repositório contém uma Landing page desenvolvida em React, projetada para exibir os próximos eventos promover um musical. A página é visualmente atraente e responsiva, proporcionando uma experiência de usuário envolvente e intuitiva. O projeto é ideal para artistas.
+
+Caso queira visualizar o projeto em tempo real segue o link abaixo:
+
+<kdb><a href='p-11-landing-page-track-vault.vercel.app'>Visualizar Em Tempo Real</a></kdb>
