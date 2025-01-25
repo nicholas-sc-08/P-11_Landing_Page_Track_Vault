@@ -7,7 +7,7 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Este repositório contém uma Landing page desenvolvida em React, projetada para exibir os próximos eventos promover um musical. A página é visualmente atraente e responsiva, proporcionando uma experiência de usuário envolvente e intuitiva. O projeto é ideal para artistas.
+Este repositório contém uma Landing page desenvolvida em React, projetada para exibir os próximos eventos promover um musical exibido suas respectivas datas e horários. A página é visualmente atraente e responsiva, proporcionando uma experiência de usuário envolvente e intuitiva. O projeto é ideal para artistas.
 
 Caso queira visualizar o projeto em tempo real segue o link abaixo:
 
